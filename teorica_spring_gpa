@@ -1,0 +1,21 @@
+Spring Data JPA:
+
+ORM - object relational mapping
+Converter dados entre sistemas de tipos incompatíveis
+
+
+JPA - Java Persistence API
+
+Especificação para aceder, persistir e gerir dados entre 
+- objectos java e bases de dados
+
+considerado abordagem standart- ORM em Java
+Implementações -  Spring Data JPA,  Hibernate, Eclipse Link
+
+Spring Data JPA
+- Facilita o acesso aos dados
+
+- Como usar? 1- Definir e configurar o datasource - config base de dados
+	     2- Definir as entidades - classes que serão mapeadas para tabelas em bases de dados
+	    3- Definir o repositório - representa a camada de acesso aos dados, métodos CRUD(create, read, update e delete), métodos de pesquisa especificos
+	    4- Usar o repositório- Ler objectos da base de dados, escrever objectos na base de dados
