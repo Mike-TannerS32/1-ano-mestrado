@@ -1,0 +1,17 @@
+Stable Matching with incomplete Lists and Ties(SMTI)
+
+- Stable Marriage Problem
+
+what is is? - problem of finding a stable matching between two equally sized sets of elements given an ordering of preferences for each element.
+
+Matching = bijection(one to one correspondence) from the elements of one set to the elements of the other set.
+	- not stable if :
+	 	- An element A of the first set prefers some given element B of the second match set over the element to which A is already matched, and
+		- B also prefers A over the element to which B is already matched.
+		
+A matching is stable when there does not exist any pair (A, B) which both prefer each other to their current partner under the matching. 
+
+Given n men and n women, where each person has ranked all members of the opposite sex in order of preference, marry the men and women together such that there are no two people of opposite sex who would both rather have each other than their current partners. When there are no such pairs of people, the set of marriages is deemed stable.
+
+Aplicação do problema:
+ 

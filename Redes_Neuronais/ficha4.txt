@@ -1,0 +1,14 @@
+Ficha4
+1- Os padrões da primeira camada são dados por linhas contínuas que separam o laranja do azul, enquanto que os padroes da segunda camada são mais circulares, delimitando mais o espaço entre os azuis reais e os laranjas.
+
+2- Os padrões das hidden layers excluem a cor laranja e têm padrões lineares(1ª camada) e delimitantes(2ª) diferentes.
+
+3- O tempo de treino é mais curto. A solução é sempre ótima.
+
+4- A remoção de um neuronio compromete a solução, ficando aquém do que é suposto dar. A àrea azul excede a área dos pontos azuis e passa por cima dos pontos laranja no canto inferior esquerdo.
+
+5- Aumentando para 8 neurónios. A rede chega à soluºão correta instantaniamente.
+
+6- O tempo de treino é extenso, chegando a 0.400 épocas nalgumas tentativas.Noutras é bastante rápido Os padrões são bastante variados por cada camada, havendo neurónios com padrões quase inexistentes. Na experiencia com maior sucesso houve apenas um neurónio, na ultima camada, que ficou vazio(sem padrão disponível).No entanto,continua a demorar muito tempo(1 epoca) a chegar ao resultado desejado 
+
+

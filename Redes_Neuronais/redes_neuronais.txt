@@ -1,0 +1,22 @@
+COnceitos e como se interligam entre si e a sua utilidade
+regularização dos modelos
+funçao de ativação
+mini-batch
+numero de camadas escondidas tendo em conta o desempenho do modelo sobre o conjunto de dados
+generalização dos modelos
+camada de entrada
+quantos neuronios de saida
+qual a função de ativação ou de saída
+
+ Steps to Build a Machine Learning Model with Python
+
+    Loading the dataset.
+    Understanding the dataset.
+    Data preprocessing.
+    Data visualization.
+    Building a regression model.
+    Model evaluation.
+    Model prediction.
+
+Qual numero de parametros da rede tendo em conta imagem mostrada? Fazer contas
+

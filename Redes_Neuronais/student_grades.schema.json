@@ -1,0 +1,53 @@
+{
+  "id": 613093,
+  "num_rows": 1000,
+  "file_format": "csv",
+  "name": "student_grades",
+  "include_header": true,
+  "columns": [
+    {
+      "name": "student_id",
+      "null_percentage": 0,
+      "type": "Row Number",
+      "formula": null
+    },
+    {
+      "name": "student_name",
+      "null_percentage": 0,
+      "type": "Full Name",
+      "formula": null
+    },
+    {
+      "name": "grade",
+      "null_percentage": 0,
+      "type": "Number",
+      "min": 0,
+      "max": 100,
+      "decimals": 2,
+      "formula": null
+    },
+    {
+      "name": "course_name",
+      "null_percentage": 0,
+      "type": "Custom List",
+      "values": [
+        "Math",
+        "Science",
+        "History",
+        "English"
+      ],
+      "selectionStyle": "random",
+      "distribution": null,
+      "formula": null
+    },
+    {
+      "name": "exam_date",
+      "null_percentage": 0,
+      "type": "Datetime",
+      "min": "1/1/2022",
+      "max": "12/31/2022",
+      "format": "%-m/%-d/%Y",
+      "formula": null
+    }
+  ]
+}

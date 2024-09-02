@@ -1,0 +1,8 @@
+Conceitos: Caso Base 
+	   Variavel/Array de resultados
+	   diagonal positiva =  (linha + coluna)
+	   diagonal negativa = (linha - coluna)
+
+N rainhas formulação do CSP:
+	
+ 

@@ -1,0 +1,15 @@
+- campo de receção de neurónios
+- Stride -> deslocação do campo de receção
+- Filtro -> conj de pesos de um neuronio
+- Mapa de carateristicas -> aplicação do filtro à camada anterior
+- Camada convolucional -> composta por multiplos filtros e gera um mapa de caracteristicas por filtro (rep 3D)
+
+Camadas de pooling - reduzir o peso computacional de uma rede convolucional
+- max-pooling-> tipo de camada mais comum
+- arquitetura típica - empilha camadas convolucionais, uma camada de pooling, mais camadas convolucionais(+ReLU) mais outra pooling
+- input(imagem) -> Convolution -> pooling -> convolution -> pooling
+
+- Desempenho sobre Fashion MNIST
+
+Arquiteturas
+LeNet-5
