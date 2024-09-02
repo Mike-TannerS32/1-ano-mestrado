@@ -1,0 +1,4 @@
+Cenario 2: não existem quartos dispoíveis
+  Como cliente pretendo consultar os quartos disponíveis no hotel
+  Pesquiso quartos com a opção "disponíveis"
+  Recebo uma página com o aviso "sem quartos disponíveis"

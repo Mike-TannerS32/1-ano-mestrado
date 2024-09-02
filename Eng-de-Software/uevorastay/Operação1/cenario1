@@ -1,0 +1,4 @@
+Cenario 1: definir quarto individual
+  As an admin
+  I want to define hotel rooms according to tthe "individual" characteristic
+  I receive feedback with "individual" and room number

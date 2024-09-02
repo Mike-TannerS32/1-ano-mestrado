@@ -1,0 +1,5 @@
+Cenario 1: check-in do hóspede
+  Como funcionário recebo o pedido de check-in do novo cliente
+  Corro a operação 5
+  Recebo uma lista dos quartos disponíveis
+  Adiciono o cliente ao quarto pretendido

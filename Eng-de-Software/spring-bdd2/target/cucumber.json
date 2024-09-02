@@ -1,0 +1,737 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-17T14:29:17.098Z",
+        "line": 14,
+        "name": "Add a room with type",
+        "description": "        Admin wants to add a room with a type",
+        "id": "add-room;add-a-room-with-type;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 106485769,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the admin calls /addRoom with type \u003d \"individual\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"individual\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.test.springbdd.AddRoomStepDefination.the_admin_calls_addRoom(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3009202,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "he receives status code of 200",
+            "match": {
+              "location": "com.test.springbdd.AddRoomStepDefination.receives_confirm()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 40456069,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "receives the room with the \"individual\" characteristic",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"individual\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.test.springbdd.AddRoomStepDefination.return_room(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T14:29:17.340Z",
+        "line": 15,
+        "name": "Add a room with type",
+        "description": "        Admin wants to add a room with a type",
+        "id": "add-room;add-a-room-with-type;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6927067,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the admin calls /addRoom with type \u003d \"double\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"double\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.test.springbdd.AddRoomStepDefination.the_admin_calls_addRoom(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 193313,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "he receives status code of 200",
+            "match": {
+              "location": "com.test.springbdd.AddRoomStepDefination.receives_confirm()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 712689,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "receives the room with the \"double\" characteristic",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"double\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.test.springbdd.AddRoomStepDefination.return_room(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T14:29:17.398Z",
+        "line": 16,
+        "name": "Add a room with type",
+        "description": "        Admin wants to add a room with a type",
+        "id": "add-room;add-a-room-with-type;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7599046,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the admin calls /addRoom with type \u003d \"suite\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suite\"",
+                  "offset": 37
+                }
+              ],
+              "location": "com.test.springbdd.AddRoomStepDefination.the_admin_calls_addRoom(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2106819,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "he receives status code of 200",
+            "match": {
+              "location": "com.test.springbdd.AddRoomStepDefination.receives_confirm()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 435507,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "receives the room with the \"suite\" characteristic",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suite\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.test.springbdd.AddRoomStepDefination.return_room(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Add room",
+    "description": "    This Feature adds a room to the hotel system",
+    "id": "add-room",
+    "keyword": "Feature",
+    "uri": "file:///home/mike/Documents/Universidade%C3%89vora/EngenhariaSoftware/spring-bdd/src/test/resources/addRoom.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-17T14:29:17.440Z",
+        "line": 12,
+        "name": "change room type from type1 to type2",
+        "description": "        Admin wants to change room type from type1 to type2",
+        "id": "change-room-type;change-room-type-from-type1-to-type2;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 38698054,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the admin calls /changeRoomtype with type \u003d \"individual\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"individual\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.the_admin_calls_changeRoomtype(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 337547,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "prompt appears to change room type with status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 47
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.prompt(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: JSON path \"type\" expected:\u003cdouble\u003e but was:\u003cindividual\u003e\n\tat org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)\n\tat org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)\n\tat org.springframework.test.util.JsonPathExpectationsHelper.assertValue(JsonPathExpectationsHelper.java:116)\n\tat org.springframework.test.web.servlet.result.JsonPathResultMatchers.lambda$value$2(JsonPathResultMatchers.java:111)\n\tat org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)\n\tat com.test.springbdd.changeRoomtypeStepDefinition.then_he_receives_room_with_type(changeRoomtypeStepDefinition.java:44)\n\tat ✽.he receives the room with type \"double\"(file:///home/mike/Documents/Universidade%C3%89vora/EngenhariaSoftware/spring-bdd/src/test/resources/changeRoomtype.feature:8)\n",
+              "duration": 4029611,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "he receives the room with type \"double\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"double\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.then_he_receives_room_with_type(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T14:29:17.529Z",
+        "line": 13,
+        "name": "change room type from type1 to type2",
+        "description": "        Admin wants to change room type from type1 to type2",
+        "id": "change-room-type;change-room-type-from-type1-to-type2;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10184342,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the admin calls /changeRoomtype with type \u003d \"double\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"double\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.the_admin_calls_changeRoomtype(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 187528,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "prompt appears to change room type with status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 47
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.prompt(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: JSON path \"type\" expected:\u003csuite\u003e but was:\u003cdouble\u003e\n\tat org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)\n\tat org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)\n\tat org.springframework.test.util.JsonPathExpectationsHelper.assertValue(JsonPathExpectationsHelper.java:116)\n\tat org.springframework.test.web.servlet.result.JsonPathResultMatchers.lambda$value$2(JsonPathResultMatchers.java:111)\n\tat org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)\n\tat com.test.springbdd.changeRoomtypeStepDefinition.then_he_receives_room_with_type(changeRoomtypeStepDefinition.java:44)\n\tat ✽.he receives the room with type \"suite\"(file:///home/mike/Documents/Universidade%C3%89vora/EngenhariaSoftware/spring-bdd/src/test/resources/changeRoomtype.feature:8)\n",
+              "duration": 832842,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "he receives the room with type \"suite\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suite\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.then_he_receives_room_with_type(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T14:29:17.581Z",
+        "line": 14,
+        "name": "change room type from type1 to type2",
+        "description": "        Admin wants to change room type from type1 to type2",
+        "id": "change-room-type;change-room-type-from-type1-to-type2;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4643276,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the admin calls /changeRoomtype with type \u003d \"suite\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suite\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.the_admin_calls_changeRoomtype(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 498392,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "prompt appears to change room type with status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 47
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.prompt(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: JSON path \"type\" expected:\u003cindividual\u003e but was:\u003csuite\u003e\n\tat org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)\n\tat org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)\n\tat org.springframework.test.util.JsonPathExpectationsHelper.assertValue(JsonPathExpectationsHelper.java:116)\n\tat org.springframework.test.web.servlet.result.JsonPathResultMatchers.lambda$value$2(JsonPathResultMatchers.java:111)\n\tat org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)\n\tat com.test.springbdd.changeRoomtypeStepDefinition.then_he_receives_room_with_type(changeRoomtypeStepDefinition.java:44)\n\tat ✽.he receives the room with type \"individual\"(file:///home/mike/Documents/Universidade%C3%89vora/EngenhariaSoftware/spring-bdd/src/test/resources/changeRoomtype.feature:8)\n",
+              "duration": 873493,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "he receives the room with type \"individual\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"individual\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.then_he_receives_room_with_type(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T14:29:17.698Z",
+        "line": 15,
+        "name": "change room type from type1 to type2",
+        "description": "        Admin wants to change room type from type1 to type2",
+        "id": "change-room-type;change-room-type-from-type1-to-type2;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15818264,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the admin calls /changeRoomtype with type \u003d \"double\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"double\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.the_admin_calls_changeRoomtype(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 289531,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "prompt appears to change room type with status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 47
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.prompt(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: JSON path \"type\" expected:\u003cindividual\u003e but was:\u003cdouble\u003e\n\tat org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)\n\tat org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)\n\tat org.springframework.test.util.JsonPathExpectationsHelper.assertValue(JsonPathExpectationsHelper.java:116)\n\tat org.springframework.test.web.servlet.result.JsonPathResultMatchers.lambda$value$2(JsonPathResultMatchers.java:111)\n\tat org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)\n\tat com.test.springbdd.changeRoomtypeStepDefinition.then_he_receives_room_with_type(changeRoomtypeStepDefinition.java:44)\n\tat ✽.he receives the room with type \"individual\"(file:///home/mike/Documents/Universidade%C3%89vora/EngenhariaSoftware/spring-bdd/src/test/resources/changeRoomtype.feature:8)\n",
+              "duration": 595563,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "he receives the room with type \"individual\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"individual\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.then_he_receives_room_with_type(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T14:29:17.762Z",
+        "line": 16,
+        "name": "change room type from type1 to type2",
+        "description": "        Admin wants to change room type from type1 to type2",
+        "id": "change-room-type;change-room-type-from-type1-to-type2;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4268304,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the admin calls /changeRoomtype with type \u003d \"suite\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suite\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.the_admin_calls_changeRoomtype(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231003,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "prompt appears to change room type with status 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 47
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.prompt(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError: JSON path \"type\" expected:\u003cdouble\u003e but was:\u003csuite\u003e\n\tat org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:59)\n\tat org.springframework.test.util.AssertionErrors.assertEquals(AssertionErrors.java:122)\n\tat org.springframework.test.util.JsonPathExpectationsHelper.assertValue(JsonPathExpectationsHelper.java:116)\n\tat org.springframework.test.web.servlet.result.JsonPathResultMatchers.lambda$value$2(JsonPathResultMatchers.java:111)\n\tat org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:196)\n\tat com.test.springbdd.changeRoomtypeStepDefinition.then_he_receives_room_with_type(changeRoomtypeStepDefinition.java:44)\n\tat ✽.he receives the room with type \"double\"(file:///home/mike/Documents/Universidade%C3%89vora/EngenhariaSoftware/spring-bdd/src/test/resources/changeRoomtype.feature:8)\n",
+              "duration": 610073,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "he receives the room with type \"double\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"double\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.test.springbdd.changeRoomtypeStepDefinition.then_he_receives_room_with_type(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Change room type",
+    "description": "    This feature changes a rooms type",
+    "id": "change-room-type",
+    "keyword": "Feature",
+    "uri": "file:///home/mike/Documents/Universidade%C3%89vora/EngenhariaSoftware/spring-bdd/src/test/resources/changeRoomtype.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-04-17T14:29:17.788Z",
+        "line": 12,
+        "name": "get room with a type",
+        "description": "        Client wants to find a room with type",
+        "id": "get-room;get-room-with-a-type;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6223222,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the client calls /getRoom with type \u003d \"individual\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"individual\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.test.springbdd.GetRoomStepDefinition.the_client_calls_getRoom(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 224749,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the client receives status code of 200 for type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "com.test.springbdd.GetRoomStepDefinition.the_client_receives_status_code_of_for_type(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 661633,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the client receives room with \"individual\" type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"individual\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.test.springbdd.GetRoomStepDefinition.the_client_receives_room_with_type(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T14:29:17.822Z",
+        "line": 13,
+        "name": "get room with a type",
+        "description": "        Client wants to find a room with type",
+        "id": "get-room;get-room-with-a-type;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3502839,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the client calls /getRoom with type \u003d \"double\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"double\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.test.springbdd.GetRoomStepDefinition.the_client_calls_getRoom(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 230021,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the client receives status code of 200 for type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "com.test.springbdd.GetRoomStepDefinition.the_client_receives_status_code_of_for_type(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 519889,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the client receives room with \"double\" type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"double\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.test.springbdd.GetRoomStepDefinition.the_client_receives_room_with_type(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-04-17T14:29:17.843Z",
+        "line": 14,
+        "name": "get room with a type",
+        "description": "        Client wants to find a room with type",
+        "id": "get-room;get-room-with-a-type;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2546904,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the client calls /getRoom with type \u003d \"suite\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suite\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.test.springbdd.GetRoomStepDefinition.the_client_calls_getRoom(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199580,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the client receives status code of 200 for type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "com.test.springbdd.GetRoomStepDefinition.the_client_receives_status_code_of_for_type(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 697379,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the client receives room with \"suite\" type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"suite\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.test.springbdd.GetRoomStepDefinition.the_client_receives_room_with_type(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "GET Room",
+    "description": "",
+    "id": "get-room",
+    "keyword": "Feature",
+    "uri": "file:///home/mike/Documents/Universidade%C3%89vora/EngenhariaSoftware/spring-bdd/src/test/resources/getRoom.feature",
+    "tags": []
+  }
+]

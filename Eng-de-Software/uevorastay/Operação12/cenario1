@@ -1,0 +1,6 @@
+Cenario 1: Marcar o quarto como "precisa de serviço de quartos"
+  Como funcionário recebo um pedido de limpeza ao quarto numero ""
+  Corro a operação 2 cenário 4
+  Recebo o perfil do quarto
+  Marco como "Precisa de limpeza"
+  Recebo "Ok"

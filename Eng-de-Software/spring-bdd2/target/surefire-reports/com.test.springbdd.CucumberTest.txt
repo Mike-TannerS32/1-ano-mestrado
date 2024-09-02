@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.test.springbdd.CucumberTest
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 3.03 s <<< FAILURE! - in com.test.springbdd.CucumberTest
+change room type from type1 to type2 #1  Time elapsed: 0.089 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "type" expected:<double> but was:<individual>
+
+change room type from type1 to type2 #2  Time elapsed: 0.045 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "type" expected:<suite> but was:<double>
+
+change room type from type1 to type2 #3  Time elapsed: 0.063 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "type" expected:<individual> but was:<suite>
+
+change room type from type1 to type2 #4  Time elapsed: 0.115 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "type" expected:<individual> but was:<double>
+
+change room type from type1 to type2 #5  Time elapsed: 0.044 s  <<< FAILURE!
+java.lang.AssertionError: JSON path "type" expected:<double> but was:<suite>
+

@@ -1,0 +1,4 @@
+Cenario 1: quarto precisa de limpeza
+  Recebo aviso que determinado quarto precisa de limpeza
+  Corro operação 2, cenário 4 
+  Marco "Precisa de limpeza" e envio para o admin

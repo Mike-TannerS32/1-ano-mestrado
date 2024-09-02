@@ -1,0 +1,6 @@
+Cenario 2: definir quarto duplo
+  As an admin
+  I want to define hotel rooms according to the "duplo" characteristic
+  Each time also adding the respective number to the room
+  I receive feedback with "duplo" and room number
+  

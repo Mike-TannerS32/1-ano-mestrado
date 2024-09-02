@@ -1,0 +1,4 @@
+Cenario 1: Marcar quarto como limpo
+  Como funcionário recebo uma mensagem da limpeza "Quarto" + numero+ "limpo"
+  Corro operação 2 cenário 4
+  Recebo o quarto e marco como "limpo"

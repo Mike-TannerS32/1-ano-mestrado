@@ -1,0 +1,4 @@
+cenario 2 - procurar quarto duplo
+  Como cliente pretendo procurar um quarto duplo
+  Quando pesquiso "quarto duplo"
+  Recebo uma lista com os quartos duplos do hotel

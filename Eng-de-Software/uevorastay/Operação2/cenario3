@@ -1,0 +1,4 @@
+cenario 3 - procurar quarto suite
+  Como cliente pretendo procurar uma suite
+  Quando pesquiso "suite"
+  Recebo uma lista com as suites do hotel

@@ -1,0 +1,4 @@
+cenario 14 - procurar por numero de quarto
+  Como cliente pretendo procurar um quarto pesquisando o seu numero
+  Quando pesquiso um numero 
+  Recebo o quarto que corresponde a esse numero, seja individual, duplo ou suite

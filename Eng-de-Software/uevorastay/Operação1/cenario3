@@ -1,0 +1,7 @@
+Cenario 3: definir quarto suite
+  As an admin
+  I want to define hotel rooms according to tthe "suite" characteristic
+  Each time also adding the respective number to the room
+  I receive feedback with "suite"  and room number
+  
+

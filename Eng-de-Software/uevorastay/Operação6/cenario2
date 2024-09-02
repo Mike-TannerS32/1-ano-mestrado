@@ -1,0 +1,4 @@
+cenario 2 - quarto não disponível
+  Como funcionário quero reservar um quarto para o cliente
+  Envio um pedido de reserva com o numero do quarto
+  Recebo resposta "quarto indisponível"

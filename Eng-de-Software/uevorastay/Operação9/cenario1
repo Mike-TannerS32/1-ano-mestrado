@@ -1,0 +1,5 @@
+Cenario 1: desassociar o hóspede do quarto
+  Como funcionário recebo aviso que a estadia num quarto chegou ao fim
+  O cliente entrega a chave do quarto
+  Faço pedido para desassociar o cliente do quarto
+  O quarto fica desocupado

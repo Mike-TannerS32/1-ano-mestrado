@@ -1,0 +1,7 @@
+cenario 3 - passar de individual para suite
+  Como admin pretendo alterar a categoria do quarto de "individual" para "suite"
+  Quando seleciono "alterar quarto"
+  Recebo uma lista de quartos e clico num quarto individual
+  Recebo um prompt "Escolha a categoria de quarto" com as opções de categoria à escolha
+  Escolho "suite"
+  Recebo "quarto alterado"

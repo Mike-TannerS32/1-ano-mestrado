@@ -1,0 +1,5 @@
+Cenario 2: não é possível alterar a reserva do quarto
+  Como funcionário recebo um pedido de alteração de reserva
+  Envio um pedido ao admin com a reserva atual e com o quarto a alterar
+  Recebo mensagem "Não é possível alterar a reserva"
+  A reserva não foi alterada

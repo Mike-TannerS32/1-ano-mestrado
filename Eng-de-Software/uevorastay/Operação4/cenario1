@@ -1,0 +1,4 @@
+Cenario 1 -  existem quartos reservados
+  Como admin pretendo consultar os quartos reservados do hotel
+  Quando pesquiso por "Reservas"
+  Recebo uma lista com os quartos reservados por numero e categoria

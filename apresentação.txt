@@ -1,0 +1,69 @@
+Objetivos do trabalho:
+Construir um modelo capaz de estimar a AOT(Aerosol Optical Thickness) a 550 nm para uma localização específica a partir da imagem correspondente dos satelites Sentinel-2 em conjunto com os dados recolhidos pelas estações AERONET.
+
+Descrição dos dados para construir o modelo: Imagens Sentinel-2 de 19*19 pixeis centradas na localização da estação AERONET, Ângulos solares (azimute e zenite), ângulos de incidência do satélite (azimute e zenite), Nome de cada ficheiro de imagem correspondente, com o qual podemos identificar a data, hora da imagem e as coordenadas da estação AERONET
+
+Feature a prever: value_550: AOT de 550 nm para qualquer localização com base nos dados do satélites Sentinel-2.
+
+No geral, o dataset é composto por 13.150 pontos de dados, com 10439 observações para treino e 2711 parra teste.
+
+2 .Pré-processamento dos dados:
+Etapas de pré-processamento dos dados de treino e de teste são abrangentes de modo a extrair o maximo de features que revelem valor na predição do valor AOT 550 nm:
+
+Passando pelas seguintes etapas:
+ - Extração de features a partir do nome do ficheiro de imagem, como a data, a hora e as coordenadas da estação AERONET
+
+ - Remoção da coluna id que não tem valor preditivo, e da coluna file_name_l1 que foi usada para extrair as features mencionadas acima.
+
+ - Ordenação dos valores de AOT 500 n, para testar a construção do modelo com a variável target ordenada
+
+ - Divisão dos dados de treino em train_set e validation_set, de modo a poder construir um modelo que seja capaz de generalizar para dados não vistos
+
+ - Standardização dos dados de treino e de teste, de modo a garantir que todas as features tenham a mesma escala e não seja um fator que influencie a predição do modelo.
+
+
+3.Pela análise dos dados de treino, podemos observar que:
+
+-Não existem valores nulos no dataset.
+-Existem outliers em algumas features, como a elevação e o ozono, mas␣
+↪conclui-se que são valores válidos e não são removidos.
+-A distribuição das features é bastante variada, com algumas features a␣
+↪terem uma distribuição normal e outras com uma distribuição mais␣
+↪assimétrica, revelando que a incidencia_azimute e a incidencia_zenite são␣
+↪features que podem não ser as mais relevantes para a predição do valor AOT␣
+↪550 nm, mas todas as restantes têm alguma corelação com a variável target
+
+Os modelos construidos são assim divididos em 2 fases, a primeira com os dados␣
+↪divididos em treino e validação, e a segunda com os dados de treino␣
+↪completos aquando a descoberta de uma arqitetura estavel de modo a utilizar␣
+↪a totalidade dos dados de treino disponiveis.
+
+Fase 1: Construção de um modelo de regressão com recurso à bilioteca␣
+↪Tesorflow, dividido em folds de validação cruzada para avaliar o MAE (mean␣
+↪absolute error) do modelo criado, com o objectivo de obter a arquitetura␣
+↪mais estavel e com o valor de MAE mais baixo possivel.
+
+Fase 2: Construção do mesmo modelo utilizado na Fase 1, mas com os dados de␣
+↪treino completos dada a quantidade escassa de dados disponiveis para treino.
+
+4. Modelo com KFold Cross Validation:
+Houve uma continuação da estrutura simplificada de 3 camadas densas (200,␣
+↪100, 50) com regularização l1 e l2, e dropout decrescente (0.3, 0.156, 0.
+↪025) para prevenir overfitting, intoduzindo a inicialização glorot_uniform␣
+↪para tentar melhorar a estabilidade do modelo.
+A arquitetura do modelo nesta iteração é a seguinte:
+Camadas: Reduzido para 3 camadas densas (200, 100, 50) para simplificar a␣
+↪arquitetura
+Regularização: l1 e l2 aplicadas de maneira semelhante aos modelos␣
+↪anteriores testando varaiaçoes
+Dropout: Mantido o padrão decrescente (0.3, 0.156, 0.025) para prevenir␣
+↪overfitting
+Ativação: LeakyReLU nas primeiras camadas, ReLU na última camada densa,␣
+↪revelou ser uma boa combinação
+Otimização: Adam com taxa de aprendizagem a 0.0003 e EarlyStopping com␣
+↪paciencia de 25 epochs
+Talvez pela simplicidade da arquitetura, o modelo não conseguiu melhorar o MAE,␣
+↪mas manteve-se estável e com um MAE médio de 0.0739, com um desvio padrão de␣
+↪0.0035, levando a testes de utilização de diferentes features e diferentes␣
+↪organizações de dados para tentar extrair um melhor MAE, mas com grande␣
+↪dificuldade

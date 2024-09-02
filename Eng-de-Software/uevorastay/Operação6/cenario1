@@ -1,0 +1,5 @@
+cenario 1 - quarto disponível
+  Como funcionário quero reservar um quarto para o cliente
+  Envio um pedido de reserva com o numero do quarto
+  Recebo resposta "OK, pedido aceite quarto"+ número+ "reservado"
+  

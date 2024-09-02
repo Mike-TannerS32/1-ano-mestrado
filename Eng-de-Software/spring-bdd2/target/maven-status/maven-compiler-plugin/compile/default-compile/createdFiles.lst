@@ -1,0 +1,6 @@
+com/test/springbdd/Database.class
+com/test/springbdd/RoomController.class
+com/test/springbdd/TypeController.class
+com/test/springbdd/SpringBddApplication.class
+com/test/springbdd/Room.class
+com/test/springbdd/Type.class

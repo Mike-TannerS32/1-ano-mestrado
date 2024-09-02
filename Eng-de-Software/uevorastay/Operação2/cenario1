@@ -1,0 +1,4 @@
+cenario 1 - procurar quarto individual
+  Como cliente pretendo procurar um quarto individual
+  Quando pesquiso "quarto individual"
+  Recebo uma lista com os quartos individuais do hotel

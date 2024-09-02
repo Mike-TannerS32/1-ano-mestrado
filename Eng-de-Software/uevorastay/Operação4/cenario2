@@ -1,0 +1,4 @@
+Cenario 2 - não existem quartos reservados
+  Como admin pretendo consultar os quartos reservados do hotel
+  Quando pesquiso por "Reservas"
+  Recebo um aviso "404 not found"
