@@ -1,6 +1,4 @@
 # Universidade de Évora
 # Engenharia Software
 
-Foram feitos os cenários que estão na pasta uevorastay.
-
-As implementações das step definitions estão na pasta projeto spring-bdd2. Até agora foram implementados apenas 3 features(a ultima ainda não está totalmente funcional, problema de bad request).
+Projeto de Implementação de Testes de Software no âmbito da cadeira de mestrado de Engenharia de Software.
