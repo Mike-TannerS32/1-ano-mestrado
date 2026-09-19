@@ -2,7 +2,7 @@
 # Engenharia Software
 
 Projeto de Implementação de Testes de Software no âmbito da cadeira de mestrado de Engenharia de Software, utilizando Spring Boot em Java.
-Estes testes são aplicados a uma aplicação de serviço de quartos num hotel.
+Estes testes são aplicados a uma aplicação de serviços de um hotel (reserva de quartos, cancelamento, check-in, check-out, etc.) .
 
 Exploração de abordagens de eficientes para fazer frente à complexidade crescente do desenvolvimento de software no paradigma atual.
   
