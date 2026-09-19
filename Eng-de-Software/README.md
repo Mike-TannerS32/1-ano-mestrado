@@ -1,7 +1,8 @@
 # Universidade de Évora
 # Engenharia Software
 
-Projeto de Implementação de Testes de Software no âmbito da cadeira de mestrado de Engenharia de Software, utilizando Spring Boot em Java. 
+Projeto de Implementação de Testes de Software no âmbito da cadeira de mestrado de Engenharia de Software, utilizando Spring Boot em Java.
+Estes testes são aplicados a uma aplicação de serviço de quartos num hotel.
 
 Exploração de abordagens de eficientes para fazer frente à complexidade crescente do desenvolvimento de software no paradigma atual.
   
